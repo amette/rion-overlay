@@ -14,7 +14,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="icu test"
 
-RDEPEND="dev-qt/qtcore:=
+RDEPEND="dev-qt/qtcore:4
+	dev-qt/qtdeclarative:4
 	icu? ( dev-libs/icu )
 	!icu? ( app-i18n/uchardet )"
 
